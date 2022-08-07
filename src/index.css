@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.text-logo:after {
+    margin-top: 8%;
+    max-width: 30%;
+}
+.text-logo:after {
+    background: #4b5563;
+    border-radius: 1000px;
+    content: "";
+    display: block;
+    height: 6px;
+    max-width: 30px;
+    width: 100%;
+}
