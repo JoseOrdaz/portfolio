@@ -26,14 +26,14 @@ export const AuthLayout = () => {
               </div>
             </div>
             <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-              <a href="#" class="border hover:border-[#426db3] text-gray-500 hover:cursor-pointer w-full font-bold py-3 px-4 rounded-xl hover:text-[#426db3]">Trabajos</a>
+              <a href="#trabajos" class="border hover:border-[#426db3] text-gray-500 hover:cursor-pointer w-full font-bold py-3 px-4 rounded-xl hover:text-[#426db3]">Trabajos</a>
               <a href="#" class="hover:bg-[#426db3] border border-[#426db3] hover:text-white text-[#426db3] hover:cursor-pointer w-full font-bold py-3 px-4 rounded-xl md:w-auto">Dime Hola</a>
             </div>
           </nav>
         </div>
         <Outlet />
        </main>
-       <footer class="mx-auto mt-32 w-full max-w-container px-4 sm:px-6 lg:px-8">
+       <footer class="mx-auto mt-18 w-full max-w-container px-4 sm:px-6 lg:px-8">
         <div class="border-t border-slate-900/5 py-10">
         <div class="flex items-center justify-center">
         <a href="#">

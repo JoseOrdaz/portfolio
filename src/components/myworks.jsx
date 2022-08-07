@@ -45,7 +45,7 @@ const callouts = [
   export const MyWorks = () => {
     return (
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div id="trabajos" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className=" max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
           <h1 className="text-gray-600 font-black text-5xl text-center mb-20">Mis Trabajos</h1>
   
