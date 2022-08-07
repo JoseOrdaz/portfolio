@@ -12,7 +12,7 @@ export const AuthLayout = () => {
             <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
               <div class="flex items-center justify-between w-full md:w-auto">
                 <a href="#">
-                  <img alt="Workflow" class="h-[6rem] rounded-full" src="./public/jose-ordaz.jpg"/>
+                  <img alt="Workflow" class="h-[6rem] rounded-full" src="./jose-ordaz.jpg"/>
                 </a>
                 <h3 className="text-[#426db3] font-black text-4xl p-2 text-left text-logo ">Jose Ordaz</h3>
                 <div class="-mr-2 flex items-center md:hidden">
@@ -37,7 +37,7 @@ export const AuthLayout = () => {
         <div class="border-t border-slate-900/5 py-10">
         <div class="flex items-center justify-center">
         <a href="#">
-                  <img alt="Workflow" class="h-[4rem] rounded-full" src="./public/jose-ordaz.jpg"/>
+                  <img alt="Workflow" class="h-[4rem] rounded-full" src="./jose-ordaz.jpg"/>
                 </a>
                 </div>
           <p class="mt-5 mb-5 text-center text-sm leading-6 text-slate-500">© 2023 Jose Ordaz Developer. Todos los derechos reservados.</p>
