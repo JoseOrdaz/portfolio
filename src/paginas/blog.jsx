@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from 'react-router-dom';
 
 export const Blog = () => {
 
@@ -9,7 +10,7 @@ export const Blog = () => {
         const response = await fetch('https://joseordaz.com//wp-json/wp/v2/posts')
         const data = await response.json()
         setEntradas(data);
-        console.log(data);
+  
         
         
       }
@@ -25,7 +26,7 @@ export const Blog = () => {
 
       <div className=" space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
         {entradas.map((entrada) => (
-          <div className="group relative py-6">
+          <div key={entrada.title.rendered} className="group relative py-6">
             <div className="relative shadow-2xl w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
             <a target="_blank" href={entrada.link}>
             <img 
@@ -39,8 +40,7 @@ export const Blog = () => {
             </a>
             <p className="mt-6 text-lg text-gray-500">
               <a target="_blank" href={entrada.link}>
-                <span className="inset-0" 
-                dangerouslySetInnerHTML= {{__html:entrada.excerpt.rendered}}/>
+                <span className="inset-0" dangerouslySetInnerHTML= {{__html:entrada.excerpt.rendered}}/>
               </a>
             </p>
           </div>
