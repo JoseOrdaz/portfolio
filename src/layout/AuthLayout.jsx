@@ -17,14 +17,7 @@ export const AuthLayout = () => {
                
                 <h3 className="text-[#426db3] font-black text-3xl p-2 text-left text-logo ">Jose Ordaz</h3>
                 </Link>
-      <div className="-mr-2 flex items-center md:hidden">
-                  <button type="button" className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
-                    <span className="sr-only">Abrir Menu</span>
-                    <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" aria-hidden="true">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                    </svg>
-                  </button>
-                </div>
+  
               </div>
             </div>
             <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">

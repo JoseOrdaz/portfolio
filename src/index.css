@@ -43,6 +43,7 @@
     bottom: 40px;
     left: 40px;
     border: 2px solid #25d366;
+    background: #25d366;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
@@ -63,7 +64,9 @@
     opacity: 0.8;
     color: #fff;
 }
-
+.whatsapp_float svg.w-6.h-6.text-green-400.fill-current {
+    color: #fff;
+}
 
 /* for mobile */
 @media screen and (max-width: 767px) {
@@ -72,7 +75,9 @@
     font-size: 20px;
 
 }
-
+.whatsapp_float svg.w-6.h-6.text-green-400.fill-current {
+    color: #fff;
+}
     .whatsapp_float {
         width: 40px;
         height: 40px;
