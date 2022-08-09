@@ -2,6 +2,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import { AuthLayout } from './layout/AuthLayout';
 import Inicio  from './paginas/inicio';
 import Contacto from './paginas/contacto';
+import Blog from './paginas/blog';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
 
           <Route index element={<Inicio/>} />
           <Route path="contacto" element={<Contacto/>} />
+          <Route path="blog" element={<Blog/>} />
          
         </Route>
     </Routes>

@@ -23,16 +23,13 @@ const Contacto = () => {
                 <input type="email" id="email" placeholder="Email de registro" className="border border-gray-600 w-full rounded-xl p-3 bg-gray-50" />
             </div>
             <div className="my-5">
-                <label htmlFor="password" className="text-gray-600 block text-xl font-bold mb-3">Password</label>
-                <input type="text" id="password" placeholder="Tu Password" className="border border-gray-600 w-full rounded-xl p-3 bg-gray-50" />
-            </div>
-            <div className="my-5">
-                <label htmlFor="password" className="text-gray-600 block text-xl font-bold mb-3">Password</label>
-                <input type="text" id="password" placeholder="Repite tu Password" className="border border-gray-600 w-full rounded-xl p-3 bg-gray-50" />
+                <label htmlFor="password" className="text-gray-600 block text-xl font-bold mb-3">Cuentame lo que quieras...</label>
+                <textarea type="text" id="password" placeholder="Te escucho..." className="border border-gray-600 w-full rounded-xl p-3 bg-gray-50" />
             </div>
         
+        
             <input
-                type="submit" value="Iniciar sesión" className="bg-[#426db3] text-white hover:cursor-pointer w-full font-bold py-3 px-4 rounded-xl md:w-full"
+                type="submit" value="Enviar" className="bg-[#426db3] text-white hover:cursor-pointer w-full font-bold py-3 px-4 rounded-xl md:w-full"
             />
 
             {/* <nav className="lg:flex lg:justify-between mt-10">
