@@ -23,7 +23,7 @@ export const Blog = () => {
     <div id="trabajos" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className=" max-w-2xl mx-auto lg:max-w-none">
     <div className='relative pt-16 pb-10 px-4 sm:px-6 lg:px-8 mx-auto md:grid items-center'>
-            <h1 className="text-gray-600 font-black text-6xl text-center ">Blog de Informática</h1>
+            <h1 className="text-gray-600 font-black text-5xl text-center ">Blog de Informática</h1>
             <p className="mt-4 text-center text-xl text-gray-500">
             Encuentra información del mundo de la informática.
             </p>

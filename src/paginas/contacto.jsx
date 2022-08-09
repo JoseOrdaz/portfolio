@@ -4,7 +4,7 @@ const Contacto = () => {
   return (
     <>
  <div className='relative pt-16 pb-10 px-4 sm:px-6 lg:px-8 mx-auto md:grid items-center'>
-            <h1 className="text-gray-600 font-black text-6xl text-center ">Contacta conmigo</h1>
+            <h1 className="text-gray-600 font-black text-5xl text-center ">Contacta conmigo</h1>
             <p className="mt-4 text-center text-xl text-gray-500">
               Diseño y codifico cosas hermosas y sencillas, y me encanta lo que hago.
             </p>

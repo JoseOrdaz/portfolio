@@ -23,20 +23,20 @@ const callouts = [
       name: 'Sistemas de Carpintería en Aluminio',
       description: 'Grupo de sistemas de carpintería en Aluminio',
       imageSrc: './grupolaminex.com.png',
-      imageAlt: 'Clubs de padel en Valencia',
-      href: 'https://clubsdepadelvalencia.es/',
+      imageAlt: 'Sistemas de Carpintería en Aluminio',
+      href: 'https://grupolaminex.com/',
     },{
       name: 'Participación Ciudadana Ayuntamiento de Chiva',
       description: 'Participación Ciudadana',
       imageSrc: './participa.chiva.es.png',
       imageAlt: 'Participación Ciudadana Ayuntamiento de Chiva',
-      href: 'https://clubsdepadelvalencia.es/',
+      href: 'https://participa.chiva.es/',
     },{
       name: 'Bodegas de vinos',
       description: 'Bodega Natura',
       imageSrc: './bodeganatura.com.png',
-      imageAlt: 'Clubs de padel en Valencia',
-      href: 'https://clubsdepadelvalencia.es/',
+      imageAlt: 'Bodegas de vinos',
+      href: 'https://bodeganatura.com/',
     }
 
     
