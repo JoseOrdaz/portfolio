@@ -11,20 +11,20 @@ export default function ScrollBody() {
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
     
     var scrollpos = window.scrollY;
-    const header = document.getElementsByClassName("chevron-scroll");
+    const chevron = document.getElementsByClassName("chevron-scroll");
 
     function add_class_on_scroll() {
-        header[0].classList.add("activo");
+      chevron[0].classList.add("activo");
     }
 
     function remove_class_on_scroll() {
-        header[0].classList.remove("activo");
+      chevron[0].classList.remove("activo");
     }
     window.addEventListener('scroll', function(){ 
         //Here you forgot to update the value
         scrollpos = window.scrollY;
 
-        if(scrollpos > 10){
+        if(scrollpos > 400){
             add_class_on_scroll();
         }
         else {

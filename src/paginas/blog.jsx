@@ -21,9 +21,14 @@ export const Blog = () => {
 
   return (
     <div id="trabajos" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className=" max-w-2xl mx-auto py-8 sm:py-18 lg:py-32 lg:max-w-none">
-    <h1 className="text-gray-600 font-black text-5xl text-center mb-20">Blog</h1>
+    <div className=" max-w-2xl mx-auto lg:max-w-none">
+    <div className='relative pt-16 pb-10 px-4 sm:px-6 lg:px-8 mx-auto md:grid items-center'>
+            <h1 className="text-gray-600 font-black text-6xl text-center ">Blog de Informática</h1>
+            <p className="mt-4 text-center text-xl text-gray-500">
+            Encuentra información del mundo de la informática.
+            </p>
 
+    </div>
       <div className=" space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
         {entradas.map((entrada) => (
           <div key={entrada.title.rendered} className="group relative py-6">

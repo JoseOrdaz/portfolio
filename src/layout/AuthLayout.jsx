@@ -54,6 +54,15 @@ export const AuthLayout = () => {
           <div className="mt-10 flex items-center justify-center space-x-4 text-sm font-semibold leading-6 text-slate-700">
           <a href="/privacy-policy">Politica de privacidad</a><div className="h-4 w-px bg-slate-500/20"></div><a href="/changelog">Dime Hola</a></div>
         </div>
+
+        <a
+        href="https://api.whatsapp.com/send/?phone=34680851926&text&type=phone_number&app_absent=0"
+        className="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="whatsapp icon"></i>
+      </a>
        </footer>
        <ScrollBody />
 
