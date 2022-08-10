@@ -1,22 +1,23 @@
 import MyWorks  from '../components/myworks';
+import Skills from '../components/skills';
 
 export const Inicio = () => {
   return (
 
     <>
     
-    <div id="header" className='relative pt-16 pb-10 px-4 sm:px-6 lg:px-8 mx-auto md:grid items-center'>
+    <div id="header" className='relative pt-8 pb-10 px-4 sm:px-6 lg:px-8 mx-auto md:grid items-center'>
             <h1 className="text-gray-600 font-black text-5xl text-center ">Diseñador y Desarrollador Frontend</h1>
             <p className="mt-4 text-center text-xl text-gray-500">
-              Diseño y codifico cosas hermosas y sencillas, y me encanta lo que hago.
+              Diseño y codifico cosas hermosas y sencillas. Además me encanta lo que hago.
             </p>
             
-            <div className="max-w-6xl flex items-center justify-center mt-20 mb-10 text-center">
+            <div className="max-w-4xl flex items-center justify-center mt-20 mx-auto">
             <img src='./hero-devices.svg' alt='foto'/>
 
             </div>
           
-            <div className="bg-white max-w-6xl mt-20 p-10 shadow-xl rounded-xl items-center">
+            <div className="bg-white max-w-6xl mt-20 p-10 shadow-md rounded-xl items-center">
  
             <p className="mb-8 text-5xl text-gray-500">
                 👋 Hola, Soy Jose.
@@ -37,6 +38,7 @@ export const Inicio = () => {
 
 
     </div>
+
  <MyWorks />
  </>
   )

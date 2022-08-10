@@ -1,15 +1,20 @@
 import { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
+import Spinner from "../components/spinner";
 
 export const Blog = () => {
+
+  
 
     const [entradas, setEntradas] = useState([]);
 
     useEffect(() => { 
      async function fetchData() {
+        setIsLoading(true);
         const response = await fetch('https://joseordaz.com//wp-json/wp/v2/posts')
         const data = await response.json()
         setEntradas(data);
+        setIsLoading(false)
   
         
         
@@ -17,21 +22,30 @@ export const Blog = () => {
 
       fetchData();
     }, []);
-
+    const [isLoading, setIsLoading] = useState(false);
 
   return (
+    <>
+    
+    
     <div id="trabajos" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className=" max-w-2xl mx-auto lg:max-w-none">
-    <div className='relative pt-16 pb-10 px-4 sm:px-6 lg:px-8 mx-auto md:grid items-center'>
+    <div className='relative pt-8 pb-10 px-4 sm:px-6 lg:px-8 mx-auto md:grid items-center'>
             <h1 className="text-gray-600 font-black text-5xl text-center ">Blog de Informática</h1>
             <p className="mt-4 text-center text-xl text-gray-500">
             Encuentra información del mundo de la informática.
             </p>
 
     </div>
+
+    {isLoading ? <div className='flex py-10 flex-row justify-center items-center mx-auto'><Spinner /></div> : setEntradas}
+    
+    
       <div className=" space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
+      
         {entradas.map((entrada) => (
           <div key={entrada.title.rendered} className="group relative py-6">
+          
             <div className="relative shadow-2xl w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
             <a target="_blank" href={entrada.link}>
             <img 
@@ -53,7 +67,10 @@ export const Blog = () => {
       </div>
     </div>
   </div>
+  </>
   )
 }
+
+
 
 export default Blog;
