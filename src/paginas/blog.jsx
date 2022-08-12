@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Spinner from "../components/spinner";
+import { Link } from 'react-router-dom';
 
 export const Blog = () => {
     const [entradas, setEntradas] = useState([]);
@@ -43,20 +44,20 @@ function SpinnerCharging() {
         {entradas.map((entrada) => (
           <div key={entrada.title.rendered} className="group relative py-6">
             <div className="relative shadow-2xl w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-            <a target="_blank" href={entrada.link}>
+            <Link  to={`/entrada/${entrada.id}`}>
             <img
                 src={entrada.yoast_head_json.og_image[0].url}
                 className="w-full h-full object-center object-cover"
               />
-              </a>
+              </Link>
             </div>
-            <a className="block text-3xl mt-5 font-semibold text-gray-900" target="_blank" href={entrada.link}>
+            <Link className="block text-3xl mt-5 font-semibold text-gray-900" to={`/entrada/${entrada.id}`}>
             <h1>{JSON.stringify(entrada.title.rendered)}</h1>
-            </a>
+            </Link>
             <p className="mt-6 text-lg text-gray-500">
-              <a target="_blank" href={entrada.link}>
+              <Link to={`/entrada/${entrada.id}`}>
                 <span className="inset-0" dangerouslySetInnerHTML= {{__html:entrada.excerpt.rendered}}/>
-              </a>
+              </Link>
             </p>
           </div>
         ))}

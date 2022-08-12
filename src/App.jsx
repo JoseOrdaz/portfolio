@@ -3,6 +3,7 @@ import { AuthLayout } from './layout/AuthLayout';
 import Inicio  from './paginas/inicio';
 import Contacto from './paginas/contacto';
 import Blog from './paginas/blog';
+import Entrada from './paginas/entrada';
 
 function App() {
 
@@ -17,6 +18,9 @@ function App() {
           <Route index element={<Inicio/>} />
           <Route path="contacto" element={<Contacto/>} />
           <Route path="blog" element={<Blog/>} />
+          <Route exact path="entrada" element={<Entrada/>} />
+          <Route path="entrada/:id" element={<Entrada/>} />
+          
          
         </Route>
     </Routes>
