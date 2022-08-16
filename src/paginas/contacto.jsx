@@ -1,5 +1,7 @@
 
 import { Link } from 'react-router-dom'
+import ContactUs from '../components/email';
+
 const Contacto = () => {
   return (
     <>
@@ -10,7 +12,8 @@ const Contacto = () => {
             </p>
 
     </div>
-    <div className='shadow bg-white rounded-xl relative w-full max-w-4xl p-16 mb-10 px-4 sm:px-6 lg:px-8 mx-auto md:grid items-center'>
+ 
+    {/* <div className='shadow bg-white rounded-xl relative w-full max-w-4xl p-16 mb-10 px-4 sm:px-6 lg:px-8 mx-auto md:grid items-center'>
         <form>
 
         <div className="my-5">
@@ -32,12 +35,11 @@ const Contacto = () => {
                 type="submit" value="Enviar" className="bg-[#426db3] text-white hover:cursor-pointer w-full font-bold py-3 px-4 rounded-xl md:w-full"
             />
 
-            {/* <nav className="lg:flex lg:justify-between mt-10">
-                <Link to="/" className=" block text-center hover:underline text-gray-500 font-bold">¿Ya tienes una cuenta? Inicia sesión</Link>
-                <Link to="/olvidar-password" className=" block text-center hover:underline text-gray-500  font-bold">¿Olvidaste tu contraseña?</Link>
-            </nav> */}
+    
         </form>
-    </div>
+    </div> */}
+    
+    <ContactUs />
     </>
   ) 
 }

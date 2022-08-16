@@ -63,6 +63,9 @@ function SpinnerCharging() {
         ))}
       </div>
     </div>
+    <div className="flex justify-center items-center">
+    <p className="mt-4 mb-4 italic text-center text-xl text-gray-500"> Entradas extraidas con REST API de WordPress</p>
+    </div>
   </div>
   </>
   )
