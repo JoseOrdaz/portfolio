@@ -57,7 +57,7 @@ export const Skills = () => {
                 </div>
                   
                 </div>
-                <img src="./public/diseño-ui-ux.svg" className="w-2/3 ml-auto -mb-12" alt="illustration" loading="lazy" width="900" height="600"/>
+                <img src="./diseño-ui-ux.svg" className="w-2/3 ml-auto -mb-12" alt="illustration" loading="lazy" width="900" height="600"/>
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
                 <div className="mb-12 space-y-4">
@@ -107,7 +107,7 @@ export const Skills = () => {
                 
                 </div>
                 </div>
-                <img src="./public/programacion.svg" className="w-2/3 ml-auto" alt="illustration" loading="lazy" width="900" height="600"/>
+                <img src="./programacion.svg" className="w-2/3 ml-auto" alt="illustration" loading="lazy" width="900" height="600"/>
             </div>
 
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
@@ -158,7 +158,7 @@ export const Skills = () => {
                 
                 </div>
                 </div>
-                <img src="./public/gestion-proyectos.svg" className="w-2/3 ml-auto" alt="illustration" loading="lazy" width="900" height="600"/>
+                <img src="./gestion-proyectos.svg" className="w-2/3 ml-auto" alt="illustration" loading="lazy" width="900" height="600"/>
             </div>
 
 
