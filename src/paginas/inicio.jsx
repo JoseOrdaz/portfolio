@@ -38,7 +38,7 @@ export const Inicio = () => {
 
 
     </div>
-
+<Skills/>
  <MyWorks />
  </>
   )
