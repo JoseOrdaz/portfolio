@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Spinner from "../components/spinner";
 import { Link } from 'react-router-dom';
 
+
 export const Blog = () => {
     const [entradas, setEntradas] = useState([]);
     const [isLoading, setIsLoading] = useState([]);
@@ -12,6 +13,7 @@ export const Blog = () => {
         const data = await response.json()
         setEntradas(data);
         setIsLoading(false);
+        
 
       }
 

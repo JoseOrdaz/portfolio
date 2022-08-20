@@ -56,19 +56,20 @@ const callouts = [
               {callouts.map((callout) => (
                 <div key={callout.name} className="group relative py-6">
                   <div className="relative w-full h-80 rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                  <a target="_blank" className="cursor-pointer" href={callout.href}>
                     <img
                       src={callout.imageSrc}
                       alt={callout.imageAlt}
-                      className="w-full object-center"
+                      className="w-full cursor-pointer object-center"
                     />
+                    </a>
                   </div>
-                  <h3 className="mt-6 text-sm text-gray-500">
-                    <a target="_blank" href={callout.href}>
-                      <span className="absolute inset-0" />
+                  <h1 className="text-2xl mb-2 text-center font-semibold text-[#426db3]">
+                    <a target="_blank" className="cursor-pointer" href={callout.href}>
                       {callout.name}
                     </a>
-                  </h3>
-                  <p className="text-base font-semibold text-gray-900">{callout.description}</p>
+                  </h1>
+                  <p className="text-center text-xl font-semibold text-gray-400">{callout.description}</p>
                 </div>
               ))}
             </div>
