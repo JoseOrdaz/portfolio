@@ -12,9 +12,8 @@ const navigation = [
 
 export const AuthLayout = () => {
   return (
-   
-    <>
     
+    <>
         <main className="mx-auto md:grid items-center">
         <div className="relative py-6 px-4 sm:px-6 lg:px-8">
           <nav className="relative flex items-center justify-around sm:h-[8rem] lg:justify-around" aria-label="Global">
@@ -22,7 +21,6 @@ export const AuthLayout = () => {
               <div className="flex items-center justify-between w-full md:w-auto">
                 <Link className="flex" to="/">
                   <img alt="jose-ordaz" className="h-[6rem] rounded-full" src="./jose-ordaz.jpg"/>
-               
                 <h3 className="text-[#426db3] font-black text-3xl p-2 text-left text-logo ">Jose <span className="text-gray-500">Ordaz</span></h3>
                 </Link>
   
@@ -148,7 +146,6 @@ export const AuthLayout = () => {
       </a>
        </footer>
        <ScrollBody />
-
        
     </>
 
