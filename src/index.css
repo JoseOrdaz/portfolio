@@ -132,11 +132,11 @@ nav.menu-principal {
 
 
     nav.menu-principal.activo {
-       padding: 1em;
+       display: none;
     }
     
     nav.menu-principal {
-        padding: 1em;
+        display: none;
       
     }
 }
