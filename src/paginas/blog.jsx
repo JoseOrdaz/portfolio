@@ -9,7 +9,7 @@ export const Blog = () => {
     useEffect(() => {
       async function fetchData() {
         setIsLoading(true);
-        const response = await fetch('https://joseordaz.com//wp-json/wp/v2/posts')
+        const response = await fetch('https://joseordaz.com//wp-json/wp/v2/posts?per_page=9')
         const data = await response.json()
         setEntradas(data);
         setIsLoading(false);
@@ -31,13 +31,16 @@ function SpinnerCharging() {
   return (
     
     <>
-    <div id="trabajos" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div id="trabajos" className="max-w-7xl mx-auto px-4 pb-8 sm:px-6 lg:px-8">
     <div className=" max-w-2xl mx-auto lg:max-w-none">
     <div className='relative pt-8 pb-10 px-4 sm:px-6 lg:px-8 mx-auto md:grid items-center'>
             <h1 className="text-gray-600 font-black text-5xl text-center ">Blog de Informática</h1>
             <p className="mt-4 text-center text-xl text-gray-500">
             Encuentra información del mundo de la informática.
             </p>
+            <div className="flex justify-center items-center">
+    <p className="mt-4 mb-4 italic text-center text-sm text-gray-500"> Entradas extraidas con REST API de WordPress</p>
+    </div>
 
     </div>
     <SpinnerCharging />
@@ -64,9 +67,6 @@ function SpinnerCharging() {
           </div>
         ))}
       </div>
-    </div>
-    <div className="flex justify-center items-center">
-    <p className="mt-4 mb-4 italic text-center text-xl text-gray-500"> Entradas extraidas con REST API de WordPress</p>
     </div>
   </div>
   </>
