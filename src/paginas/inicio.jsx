@@ -20,7 +20,7 @@ export const Inicio = () => {
             <div className="bg-white max-w-6xl mt-20 p-10 shadow-md rounded-xl items-center">
  
             <p className="mb-8 text-5xl text-gray-500">
-                👋 Hola, Soy Jose.
+                👋 Hola, soy Jose.
             </p>
 
             <p className="mt-4 mb-8 text-xl text-gray-500">
@@ -30,7 +30,7 @@ export const Inicio = () => {
             </p>
 
             <p className="mt-4 text-xl text-gray-500">
-                Estoy en <a className="font-medium text-[#426db3] hover:underline" href="https://github.com/JoseOrdaz" target="_blank">GitHub</a>, <a className="font-medium text-[#426db3] hover:underline" href="https://twitter.com/josele_ordaz" target="_blank">Twitter</a> and <a className="font-medium text-[#426db3] hover:underline" href="https://www.instagram.com/josele.ordaz/" target="_blank">Instagram</a>.
+                Estoy en <a className="font-medium text-[#426db3] hover:underline" href="https://github.com/JoseOrdaz" target="_blank">GitHub</a>, <a className="font-medium text-[#426db3] hover:underline" href="https://twitter.com/josele_ordaz" target="_blank">Twitter</a> y <a className="font-medium text-[#426db3] hover:underline" href="https://www.instagram.com/josele.ordaz/" target="_blank">Instagram</a>.
             </p>
      
           </div>

@@ -39,7 +39,7 @@ export const ContactUs = () => {
 
             <div className="my-5">
                 <label htmlFor="email" className="text-gray-600 block text-xl font-bold mb-3">Email</label>
-                <input required type="email" name="user_email" id="email" placeholder="Email de registro" className="border border-gray-600 w-full rounded-xl p-3 bg-gray-50" />
+                <input required type="email" name="user_email" id="email" placeholder="Tu Email" className="border border-gray-600 w-full rounded-xl p-3 bg-gray-50" />
             </div>
             <div className="my-5">
                 <label htmlFor="password" className="text-gray-600 block text-xl font-bold mb-3">Cuentame lo que quieras...</label>
