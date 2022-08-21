@@ -12,42 +12,42 @@ export const Skills = () => {
                     <h3 className="text-4xl font-semibold text-[#426db3]">Diseñador</h3>
                     
                     <p className="mb-6">Valoro que la estructura del contenido sea simple y clara.</p>
-                    <div class="transition-colors duration-200 transform rounded-lg dark:hover:bg-gray-700">
+                    <div className="transition-colors duration-200 transform rounded-lg dark:hover:bg-gray-700">
                     <br></br>
-                    <p class="text-lg font-medium text-gray-800 dark:text-gray-100">Cosas que disfruto diseñando:</p>
+                    <p className="text-lg font-medium text-gray-800 dark:text-gray-100">Cosas que disfruto diseñando:</p>
              
                 
-                    <div class="mt-8 space-y-8">
-                        <div class="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                    <div className="mt-8 space-y-8">
+                        <div className="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                             </svg>
 
-                            <span class="mx-4 text-gray-700 dark:text-gray-300">Diseño UI y UX</span>
+                            <span className="mx-4 text-gray-700 dark:text-gray-300">Diseño UI y UX</span>
                         </div>
 
-                        <div class="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                        <div className="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                             </svg>
 
-                            <span class="mx-4 text-gray-700 dark:text-gray-300">Webs y aplicaciones web</span>
+                            <span className="mx-4 text-gray-700 dark:text-gray-300">Webs y aplicaciones web</span>
                         </div>
 
-                        <div class="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                        <div className="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                             </svg>
 
-                            <span class="mx-4 text-gray-700 dark:text-gray-300">Logos y Carteles</span>
+                            <span className="mx-4 text-gray-700 dark:text-gray-300">Logos y Carteles</span>
                         </div>
 
-                        <div class="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                        <div className="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                             </svg>
 
-                            <span class="mx-4 text-gray-700 dark:text-gray-300">Apps (aprendiendo)</span>
+                            <span className="mx-4 text-gray-700 dark:text-gray-300">Apps (aprendiendo)</span>
                         </div>  
 
 
@@ -64,41 +64,41 @@ export const Skills = () => {
                     <h3 className="text-4xl font-semibold text-[#426db3]">Frontend Developer</h3>
                     <p className="mb-6">Me gusta programar cosas desde cero y disfruto con ello.</p>
                    <br></br>
-                    <div class=" transition-colors duration-200 transform rounded-lg dark:hover:bg-gray-700">
-                    <p class="text-lg font-medium text-gray-800 dark:text-gray-100">Mis Skills:</p>
+                    <div className=" transition-colors duration-200 transform rounded-lg dark:hover:bg-gray-700">
+                    <p className="text-lg font-medium text-gray-800 dark:text-gray-100">Mis Skills:</p>
                   
                 
-                    <div class="mt-8 space-y-8">
-                        <div class="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                    <div className="mt-8 space-y-8">
+                        <div className="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                             </svg>
 
-                            <span class="mx-4 text-gray-700 dark:text-gray-300">HTML, CSS y JavaScript</span>
+                            <span className="mx-4 text-gray-700 dark:text-gray-300">HTML, CSS y JavaScript</span>
                         </div>
 
-                        <div class="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                        <div className="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                             </svg>
 
-                            <span class="mx-4 text-gray-700 dark:text-gray-300">React, ViteJS y Tailwind</span>
+                            <span className="mx-4 text-gray-700 dark:text-gray-300">React, ViteJS y Tailwind</span>
                         </div>
 
-                        <div class="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                        <div className="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                             </svg>
 
-                            <span class="mx-4 text-gray-700 dark:text-gray-300">Node.js y SQL</span>
+                            <span className="mx-4 text-gray-700 dark:text-gray-300">Node.js y SQL</span>
                         </div>
 
-                        <div class="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                        <div className="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                             </svg>
 
-                            <span class="mx-4 text-gray-700 dark:text-gray-300">Git</span>
+                            <span className="mx-4 text-gray-700 dark:text-gray-300">Git</span>
                         </div>
 
 
@@ -115,41 +115,41 @@ export const Skills = () => {
                     <h3 className="text-4xl font-semibold text-[#426db3]">Project Manager</h3>
                     <p className="mb-6">Amplia experencia en gestión de proyectos y soporte web.</p>
                    <br></br>
-                    <div class="transition-colors duration-200 transform rounded-lg dark:hover:bg-gray-700">
-                    <p class="text-lg font-medium text-gray-800 dark:text-gray-100">Mis habilidades:</p>
+                    <div className="transition-colors duration-200 transform rounded-lg dark:hover:bg-gray-700">
+                    <p className="text-lg font-medium text-gray-800 dark:text-gray-100">Mis habilidades:</p>
                   
                 
-                    <div class="mt-8 space-y-8">
-                        <div class="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                    <div className="mt-8 space-y-8">
+                        <div className="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                             </svg>
 
-                            <span class="mx-4 text-gray-700 dark:text-gray-300">Dirigir y motivar al equipo</span>
+                            <span className="mx-4 text-gray-700 dark:text-gray-300">Dirigir y motivar al equipo</span>
                         </div>
 
-                        <div class="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                        <div className="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                             </svg>
 
-                            <span class="mx-4 text-gray-700 dark:text-gray-300">Gestión de riesgos, problemas y cambios</span>
+                            <span className="mx-4 text-gray-700 dark:text-gray-300">Gestión de riesgos, problemas y cambios</span>
                         </div>
 
-                        <div class="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                        <div className="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                             </svg>
 
-                            <span class="mx-4 text-gray-700 dark:text-gray-300">Monitorizar el progreso</span>
+                            <span className="mx-4 text-gray-700 dark:text-gray-300">Monitorizar el progreso</span>
                         </div>
 
-                        <div class="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                        <div className="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-[#426db3]" viewBox="0 0 20 20" fill="currentColor">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                             </svg>
 
-                            <span class="mx-4 text-gray-700 dark:text-gray-300">Buena comunicación</span>
+                            <span className="mx-4 text-gray-700 dark:text-gray-300">Buena comunicación</span>
                         </div>
 
 
