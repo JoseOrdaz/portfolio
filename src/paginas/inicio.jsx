@@ -38,8 +38,13 @@ export const Inicio = () => {
 
 
     </div>
+    
+    
 <Skills/>
+<div className='relative pt-8 pb-10 px-4 '>
+
  <MyWorks />
+</div>
  </>
   )
 }

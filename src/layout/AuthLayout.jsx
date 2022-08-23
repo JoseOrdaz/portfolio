@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import ScrollBody from '../components/scrollbody';
-import { Fragment } from 'react'
+import { Fragment, useRef } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
@@ -12,9 +12,11 @@ const navigation = [
 
 
 export const AuthLayout = () => {
+
   return (
     
     <>
+    
         <main className="mx-auto md:grid items-center">
         <div className="relative py-6 px-4 sm:px-6 lg:px-8">
           <nav className="relative flex items-center justify-around sm:h-[8rem] lg:justify-around" aria-label="Global">
@@ -50,7 +52,15 @@ export const AuthLayout = () => {
                     <Link key={item.name} to={item.href} className="font-medium text-gray-500 hover:text-gray-900">
                       {item.name}
                     </Link>
+
+                    
                   ))}
+
+                  <Link to="trabajos" className="font-medium text-gray-500 hover:text-gray-900">
+                      Mis trabajos
+                    </Link>
+                  <a href="https://github.com/joseordaz" className="font-medium text-gray-500 hover:text-gray-900" target="_blank">GitHub</a>
+                
                   <Link to="contacto" className="font-medium border p-2 rounded-md border-[#426db3] hover:bg-[#426db3]  text-[#426db3] hover:text-white">
                     ¡Dime Hola!
                   </Link>
@@ -98,6 +108,11 @@ export const AuthLayout = () => {
                       </Link>
                       
                     ))}
+                    <Link to="trabajos" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+                      Mis trabajos
+                    </Link>
+                     <a href="https://github.com/joseordaz"  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50" target="_blank">GitHub</a>
+                
                     <Link to="contacto" className="block px-3 py-2 font-medium text-[#426db3] hover:text-gray-500">
                     ¡Dime Hola!
                   </Link>

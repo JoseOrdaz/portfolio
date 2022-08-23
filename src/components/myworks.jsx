@@ -1,4 +1,7 @@
 import { Link } from 'react-router-dom';
+import { Fragment, useRef } from 'react';
+
+
 const callouts = [
     {
       name: 'Web de peluquería',
@@ -42,11 +45,15 @@ const callouts = [
     
   ]
  
-  export const MyWorks = () => {
-    return (
 
-        <div id="trabajos" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className=" max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
+
+  export const MyWorks = () => {
+    const testRef = useRef();
+    
+    return (
+      <>
+        <div ref={testRef} id="trabajos" className="max-w-7xl mx-auto pt-8 pb-10">
+          <div className=" max-w-2xl mx-auto lg:max-w-none">
           <h1 className="text-gray-600 font-black text-5xl text-center ">Mis trabajos más recientes</h1>
             <p className="mt-4 text-center text-xl text-gray-500">
             Aquí hay algunos proyectos de diseño anteriores en los que he trabajado. ¿Quieres ver más? <Link className='font-medium text-[#426db3] hover:underline' to="/contacto">Envíame un correo electrónico</Link>
@@ -55,7 +62,7 @@ const callouts = [
             <div className=" space-y-12 mt-20 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
               {callouts.map((callout) => (
                 <div key={callout.name} className="group relative py-6">
-                  <div className="relative w-full h-80 rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                  <div className="relative w-full rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
                   <a target="_blank" className="cursor-pointer" href={callout.href}>
                     <img
                       src={callout.imageSrc}
@@ -75,7 +82,7 @@ const callouts = [
             </div>
           </div>
         </div>
-
+</>
     )
   }
 

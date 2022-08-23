@@ -4,6 +4,8 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
+
+
 const navigation = [
   { name: 'Blog', href: 'blog' },
 
@@ -13,6 +15,8 @@ const navigation = [
 
 
 export default function ScrollBody() {
+
+  
 
   useEffect(() => {
     // 👇️ scroll to top on page load
@@ -47,8 +51,14 @@ export default function ScrollBody() {
 
   }, []);
 
+
+
+
   return (
 <>
+
+
+
     <div>
       <div style={{height: 'auto'}} />
       {/* 👇️ scroll to top on button click */}
@@ -96,6 +106,11 @@ export default function ScrollBody() {
                       {item.name}
                     </Link>
                   ))}
+                  <Link to="trabajos" className="font-medium text-gray-500 hover:text-gray-900">
+                      Mis trabajos
+                    </Link>
+                  <a href="https://github.com/joseordaz" className="font-medium text-gray-500 hover:text-gray-900" target="_blank">GitHub</a>
+                
                   <Link to="contacto" className="font-medium border p-2 rounded-md border-[#426db3] hover:bg-[#426db3]  text-[#426db3] hover:text-white">
                     ¡Dime Hola!
                   </Link>
@@ -143,6 +158,12 @@ export default function ScrollBody() {
                       </Link>
                       
                     ))}
+                    <Link to="trabajos" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+                      Mis trabajos
+                    </Link>
+                     <a href="https://github.com/joseordaz"  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50" target="_blank">GitHub</a>
+                
+                
                     <Link to="contacto" className="block px-3 py-2 font-medium text-[#426db3] hover:text-gray-500">
                     ¡Dime Hola!
                   </Link>

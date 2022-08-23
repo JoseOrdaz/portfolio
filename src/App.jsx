@@ -5,6 +5,7 @@ import Contacto from './paginas/contacto';
 import Blog from './paginas/blog';
 import Entrada from './paginas/entrada';
 import ScrollToTop from './components/scrollToTop';
+import MyWorks from './components/myworks';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route index element={<Inicio/>} />
           <Route path="contacto" element={<Contacto/>} />
           <Route path="blog" element={<Blog/>} />
+          <Route path="trabajos" element={<MyWorks/>} />
           <Route exact path="entrada" element={<Entrada/>} />
           <Route path="entrada/:id" element={<Entrada/>} />
           
