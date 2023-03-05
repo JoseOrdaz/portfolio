@@ -7,7 +7,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
   { name: 'Inicio', href: '/' },
-  { name: 'Blog', href: 'blog' },
+  // { name: 'Blog', href: 'blog' },
 
 ]
 
@@ -40,7 +40,7 @@ export const AuthLayout = () => {
                       <span className="sr-only">Jose Ordaz Developer</span>
                      
                     </a>
-                    <div className="-mr-2 flex items-center md:hidden"> 
+                    <div className="-mr-2 flex items-center lg:hidden"> 
                       <Popover.Button className="bg-white rounded-md border p-2 inline-flex items-center justify-center text-gray-700 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#426db3]">
                         <span className="sr-only">Abrir Menú</span>
                         <MenuIcon className="h-6 w-6" aria-hidden="true" />
@@ -48,7 +48,7 @@ export const AuthLayout = () => {
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+                <div className="hidden lg:block md:ml-10 md:pr-4 md:space-x-8">
                   {navigation.map((item) => (
                     <Link key={item.name} to={item.href} className="font-medium text-gray-500 hover:text-gray-900">
                       {item.name}
@@ -80,7 +80,7 @@ export const AuthLayout = () => {
             >
               <Popover.Panel
                 focus
-                className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+                className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden"
               >
                 <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                   <div className="px-5 pt-4 flex items-center justify-between">

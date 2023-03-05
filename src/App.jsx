@@ -19,7 +19,7 @@ function App() {
       <Route path="/" element={<AuthLayout/>}>
           <Route index element={<Inicio/>} />
           <Route path="contacto" element={<Contacto/>} />
-          <Route path="blog" element={<Blog/>} />
+          {/* <Route path="blog" element={<Blog/>} /> */}
           <Route path="trabajos" element={<MyWorks/>} />
           <Route exact path="entrada" element={<Entrada/>} />
           <Route path="entrada/:id" element={<Entrada/>} />

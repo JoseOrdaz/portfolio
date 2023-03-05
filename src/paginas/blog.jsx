@@ -13,13 +13,14 @@ export const Blog = () => {
         const data = await response.json()
         setEntradas(data);
         setIsLoading(false);
-        
+       
 
       }
 
       fetchData();
     }, []);
     
+
     
 function SpinnerCharging() {
   if (isLoading) {
@@ -46,14 +47,18 @@ function SpinnerCharging() {
     <SpinnerCharging />
 
       <div className=" space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
+        
         {entradas.map((entrada) => (
           <div key={entrada.title.rendered} className="group relative py-6">
             <div className="relative shadow-2xl w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
             <Link  to={`/entrada/${entrada.id}`}>
+
+            {/* {entrada.yoast_head_json.og_image.map((images) => (
             <img
-                src={entrada.yoast_head_json.og_image[0].url}
+                src={images.url}
                 className="w-full h-full object-center object-cover"
               />
+              ))} */}
               </Link>
             </div>
             <Link className="block text-3xl mt-5 font-semibold text-gray-900" to={`/entrada/${entrada.id}`}>
@@ -66,13 +71,15 @@ function SpinnerCharging() {
             </p>
           </div>
         ))}
+      
       </div>
     </div>
   </div>
   </>
+  
   )
+  
 }
-
 
 
 export default Blog;
