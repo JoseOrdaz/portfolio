@@ -9,7 +9,7 @@ export const Inicio = () => {
     <>
     
     <div id="header" className='relative py-16  px-6 mx-auto md:grid items-center'>
-            <h1 className="text-gray-600 font-black text-5xl text-center ">Diseñador y Desarrollador Frontend</h1>
+            <h1 className="text-gray-600 font-black text-5xl text-center ">Diseñador y FrontEnd Developer</h1>
             <p className="mt-4 text-center text-xl text-gray-500">
               Diseño y codifico cosas hermosas y sencillas. Además me encanta lo que hago.
             </p>

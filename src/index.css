@@ -3,7 +3,15 @@
 @tailwind utilities;
 
 
-
+body {
+    border-image-source: linear-gradient(90deg,#f7c9c9,#fa709a 70%);
+    scroll-behavior: smooth;
+    max-width: 100%;
+    border: 6px solid;
+    border-image-source: linear-gradient(90deg,#426db3,#fbdd3c 70%);
+    border-image-slice: 1;
+    background: aliceblue;
+}
 .text-logo:after {
     margin-top: 3%;
     max-width: 30%;

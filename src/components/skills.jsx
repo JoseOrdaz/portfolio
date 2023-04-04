@@ -121,7 +121,7 @@ export const Skills = () => {
                     <h3 className="text-4xl font-semibold text-[#426db3]">Project Manager</h3>
                     <p className="mb-6">Amplia experencia en gestión de proyectos y soporte web.</p>
                     <div className="mt-0 transition-colors duration-200 transform rounded-lg dark:hover:bg-gray-700">
-                    <p className="text-2xl font-bold">Mis habilidades:</p>
+                    <p className="text-2xl font-bold">Mis cualidades:</p>
                   
                 
                     <div className="mt-8 space-y-4">
