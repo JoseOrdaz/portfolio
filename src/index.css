@@ -3,20 +3,18 @@
 @tailwind utilities;
 
 
+
 .text-logo:after {
-    margin-top: 8%;
+    margin-top: 3%;
     max-width: 30%;
-}
-.text-logo:after {
-    background: #4b5563;
+    background: #fbdd3c;
     border-radius: 1000px;
     content: "";
     display: block;
-    height: 6px;
-    max-width: 30px;
+    height: 10px;
+    max-width: 80px;
     width: 100%;
 }
-
 
 #go-top{border-radius: 3px;background-color: rgba(70,70,70,.5);  display: flex;
     justify-content: center;
@@ -58,16 +56,16 @@ nav.menu-principal {
 }
 .whatsapp_float {
     position: fixed;
-    width: 40px;
-    height: 40px;
-    bottom: 40px;
+    width: 50px;
+    height: 50px;
+    bottom: 12px;
     left: 40px;
     border: 2px solid #25d366;
     background: #25d366;
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     z-index: 100;
     display: flex;
@@ -77,14 +75,14 @@ nav.menu-principal {
 
 .whatsapp.icon {
     margin: 0;
-    font-size: 40px;
+    font-size: 50px;
 
 }
 .whatsapp_float:hover .whatsapp.icon {
     opacity: 0.8;
     color: #fff;
 }
-.whatsapp_float svg.w-6.h-6.text-green-400.fill-current {
+.whatsapp_float svg.text-green-400.fill-current {
     color: #fff;
 }
 

@@ -5,9 +5,11 @@ import ContactUs from '../components/email';
 const Contacto = () => {
   return (
     <>
+
+    <div className='py-16 px-4 bg-[#426db3]'>
  <div className='relative pt-8 pb-10 px-4 sm:px-6 lg:px-8 mx-auto md:grid items-center'>
-            <h1 className="text-gray-600 font-black text-5xl text-center ">Contacta conmigo</h1>
-            <p className="mt-4 text-center text-xl text-gray-500">
+            <h1 className="text-white font-black text-5xl text-center ">Contacta conmigo</h1>
+            <p className="mt-4 text-center text-xl text-white">
                 Si quieres contactar conmigo, puedes hacerlo a través de este formulario.
             </p>
 
@@ -40,6 +42,7 @@ const Contacto = () => {
     </div> */}
     
     <ContactUs />
+    </div>
     </>
   ) 
 }

@@ -73,7 +73,7 @@ export default function ScrollBody() {
 </svg></div>
       </button>
     </div>
-    <nav className="menu-principal relative flex items-center justify-around sm:h-[8rem] lg:justify-around" aria-label="Global">
+    {/* <nav className="menu-principal relative flex items-center justify-around sm:h-[8rem] lg:justify-around" aria-label="Global">
             <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
               <div className="flex items-center justify-between w-full md:w-auto">
                 <Link className="flex" to="/">
@@ -174,7 +174,7 @@ export default function ScrollBody() {
               </Popover.Panel>
             </Transition>
           </Popover>
-          </nav>
+          </nav> */}
           </>
   );
   

@@ -11,31 +11,31 @@ const callouts = [
       href: 'https://jesuspeluquero.es/',
     },
     {
-      name: 'Tienda especializada en venta de cartuchos y tóners.',
+      name: 'Web cartuchos y tóners.',
       description: 'R.L Ahuir',
       imageSrc: './cartutonerahuir.es-marco-pc.png',
       imageAlt: 'Tienda especializada en venta de cartuchos y tóners.',
       href: 'https://www.cartutonerahuir.es/',
     },   {
-      name: 'Web de Clubs de padel en Valencia',
+      name: 'Web de Clubs de padel',
       description: 'Clubs de padel',
       imageSrc: './clubsdepadelvalencia.es-marco-pc.png',
       imageAlt: 'Clubs de padel en Valencia',
       href: 'https://clubsdepadelvalencia.es/',
     },{
-      name: 'Sistemas de Carpintería en Aluminio',
+      name: 'Web Carpintería en Aluminio',
       description: 'Grupo de sistemas de carpintería en Aluminio',
       imageSrc: './grupolaminex.com-marco-pc.png',
       imageAlt: 'Sistemas de Carpintería en Aluminio',
       href: 'https://grupolaminex.com/',
     },{
-      name: 'Participación Ciudadana Ayuntamiento de Chiva',
+      name: 'Web Participación Ciudadana',
       description: 'Participación Ciudadana',
       imageSrc: './participa.chiva.es-marco-pc.png',
       imageAlt: 'Participación Ciudadana Ayuntamiento de Chiva',
       href: 'https://participa.chiva.es/',
     },{
-      name: 'Bodegas de vinos',
+      name: 'Web de Bodegas de vinos',
       description: 'Bodega Natura',
       imageSrc: './bodeganatura.com-marco-pc.png',
       imageAlt: 'Bodegas de vinos',
@@ -52,11 +52,11 @@ const callouts = [
     
     return (
       <>
-        <div ref={testRef} id="trabajos" className="max-w-7xl mx-auto pt-8 pb-10">
+        <div ref={testRef} id="trabajos" className="max-w-7xl mx-auto px-4">
           <div className=" max-w-2xl mx-auto lg:max-w-none">
           <h1 className="text-gray-600 font-black text-5xl text-center ">Mis trabajos más recientes</h1>
             <p className="mt-4 text-center text-xl text-gray-500">
-            Aquí hay algunos proyectos de diseño anteriores en los que he trabajado. ¿Quieres ver más? <Link className='font-medium text-[#426db3] hover:underline' to="/contacto">Envíame un correo electrónico</Link>
+            Aquí hay algunos proyectos de diseño anteriores en los que he trabajado. ¿Quieres ver más? <Link className='font-medium text-[#fbdd3c] hover:underline' to="/contacto">Envíame un correo electrónico</Link>
             </p>
   
             <div className=" space-y-12 mt-20 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
@@ -71,12 +71,12 @@ const callouts = [
                     />
                     </a>
                   </div>
-                  <h1 className="text-2xl mb-2 text-center font-semibold text-[#426db3]">
+                  <h1 className="text-gray-600  font-medium text-xl text-center ]">
                     <a target="_blank" className="cursor-pointer" href={callout.href}>
                       {callout.name}
                     </a>
                   </h1>
-                  <p className="text-center text-xl font-semibold text-gray-400">{callout.description}</p>
+                  {/* <p className="text-center text-xl font-semibold text-gray-400">{callout.description}</p> */}
                 </div>
               ))}
             </div>
